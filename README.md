@@ -7,8 +7,8 @@ As a new developer, I am looking to build my JavaScript skills. As a drummer, I 
 1. Use as much vanilla JS as possible. I anticipate being unable to avoid using other JS libraries for some feature, though
 2. Display the current beat
 3. Display two indicators
-  * The first will flash on beat 1
-  *The second will flash on beat 2"]
+   * The first will flash on beat 1
+   *The second will flash on beat 2
 
 ## Copyright Notice
 Copyright 2018 Jer Keller
