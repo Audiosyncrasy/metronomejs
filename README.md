@@ -4,11 +4,14 @@
 As a new developer, I am looking to build my JavaScript skills. As a drummer, I have a particular interest in having a JavaScript metronome tool that can be used in any browser.
 
 ## Project Goals
-1. Use as much vanilla JS as possible. I anticipate being unable to avoid using other JS libraries for some feature, though
+1. Use as much vanilla JS as possible. However, I anticipate being unable to avoid using other JS libraries for some features
 2. Display the current beat
 3. Display two indicators
    * The first will flash on beat 1
-   *The second will flash on beat 2
+   * The second will flash on beat 2
+4. Beats-per-measure can be added via a slider or a form field
+5. Master volume, controlled by slider
+6. Volume for each subdivision, controlled by sliders
 
 ## Copyright Notice
 Copyright 2018 Jer Keller
