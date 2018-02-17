@@ -1,0 +1,102 @@
+/* =========== GENERAL CSS =========== */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	border: 3px solid #000;
+	border-radius: 15px;
+	margin: 10px auto 0;
+}
+
+.dropshadow {
+    -moz-box-shadow: 3px 5x 3px 0 #999;
+    -webkit-box-shadow: 3px 5x 3px 0 #999;
+    box-shadow: 3px 4px 3px 0 #999;
+}
+
+/* =========== NAV =========== */
+/*ul.nav .nav-item .nav-link, ul.nav .nav-item .nav-link:visited {
+	color: white;
+}
+
+ul.nav .nav-item.active .nav-link {
+	color: #CCC;
+}*/
+
+/* =========== METRO-CONTAINER =========== */
+#metro-container {
+	padding: 15px;
+}
+
+/* =========== BEAT INDICATORS =========== */
+#beat-counter {
+    width: 80%;
+    padding-top: 80%;
+    margin: 10%;
+    background: white;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+}
+
+#beat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+}
+
+#downbeat {
+    width: 50%;
+    padding-top: 50%;
+    margin: 25%;
+    background: darkred;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+#secondary-beat {
+    width: 50%;
+    padding-top: 50%;
+    margin: 25%;
+    background: darkgreen;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+/*  =========== TRANSPORT =========== */
+.fa-play {
+    font-size: 6rem;
+    padding: 0;
+}
+
+#beatInput, #bpmInput {
+    width: 70px;
+}
+
+/*  =========== MEDIA QUERIES ===========
+
+// DEFAULT: Extra small devices (portrait phones, less than 576px)
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.container {
+	width: 800px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<!-- Font Awesome CDN -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		
+		<!-- Google Font 'Montserrat'-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+		<title>Metronome JS</title>
+	</head>
+	<body>
+		<div id="nav-container" class="container bg-primary text-white dropshadow">	
+			<nav class="navbar navbar-expand-lg bg-primary navbar-dark text-white">
+				<a class="navbar-brand text-white" href="#">Brand</a>
+				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="nav navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown link
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div><!-- #nav-container -->
+		
+		<div id="metro-container" class="container bg-primary text-white dropshadow">
+			<h1 class="sr-only">Metronome JS</h1>
+			
+			<div class="row">
+			    <div class="col-4">
+			        <div id="beat-counter">
+			            <p id="beat">1</p>
+			        </div><!-- #beat-counter -->
+			    </div><!-- col-sm-4 -->
+			    <div class="col-8">
+			        <div class="row">
+			            <div class="col-6">
+			                <div id="downbeat" class="col-6 offset-3">
+			                </div><!-- #downbeat -->
+			            </div><!-- .col-sm-6 -->
+			            <div class="col-6">
+			                <div id="secondary-beat" class="col-6 offset-3"> 
+			                </div><!-- #secondary-beat -->
+			            </div><!-- .col-sm-6 -->
+			        </div><!-- .row -->
+			    </div><!-- col-sm-8 -->
+			</div><!-- row -->
+			
+			<div class="row">
+			    <div class="col-4">
+                     <div class="row">
+                         <div class="col-6 text-right">
+                             <a href="#" class="btn btn-primary">
+                                 <i class="fas fa-play"></i>
+                             </a>
+                         </div><!-- .col-6 -->
+                         <div class="col-6">
+                            <div class="form-group">
+                                <label for="bpmInput" class="sr-only">Beats per minute</label>
+                                <input type="number" class="form-control" id="bpmInput" aria-describedby="bpmHelp" placeholder="120" min="20" max="300">
+                                <small id="bpmeasHelp">BPM</small>
+                            </div><!-- .form-group -->
+                            <div class="form-group">
+                                <label for="beatInput" class="sr-only">Beat Input</label>
+                                <input type="number" class="form-control" id="beatInput" aria-describedby="emailHelp" placeholder="4" min="1" max="12">
+                                <small id="bpmeasHelp">Bts per meas</small>
+                            </div><!-- .form-group -->
+                         </div><!-- .col-6 -->
+                     </div><!-- .row -->
+			    </div><!-- .col-4 -->
+			    <div class="col-8">
+			        
+			    </div><!-- .col-8 -->
+			</div><!-- .row -->
+		</div><!-- #metro-container -->
+
+		<!-- jQuery CDN -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<!-- Popper.js CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<!-- Bootstrap JS CDN -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
