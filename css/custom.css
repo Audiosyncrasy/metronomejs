@@ -67,7 +67,7 @@ ul.nav .nav-item.active .nav-link {
 }
 
 /*  =========== TRANSPORT =========== */
-.fa-play {
+.fa-play, .fa-pause {
     font-size: 6rem;
     padding: 0;
 }
