@@ -67,7 +67,7 @@ ul.nav .nav-item.active .nav-link {
 }
 
 /*  =========== TRANSPORT =========== */
-.fa-play, .fa-pause {
+#playBtn {
     font-size: 6rem;
     padding: 0;
 }
@@ -93,20 +93,16 @@ ul.nav .nav-item.active .nav-link {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     #beat {
-        font-size: 7rem;
+        font-size: 10rem;
     }	
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    #beat {
-        font-size: 8rem;
-    }	
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    #beat {
-        font-size: 10rem;
-    }	
+    
 }
